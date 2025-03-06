@@ -13,20 +13,20 @@ Tap-Track is a deep learning-based project that classifies keyboard keypresses f
 ## Repository Structure
 ```
 Tap-Track/
-│── data/                # Raw and preprocessed datasets
-│── models/              # Saved model weights
-│── notebooks/           # Jupyter notebooks for training & analysis
-│── src/                 # Source code
+│── Data/                # Raw and preprocessed datasets
+│── Models/              # Saved model weights
+│── Notebooks/           # Jupyter notebooks for training & analysis
+│── Souce Code/                 # Source code or src
 │   │── preprocess.py    # Data preprocessing and feature extraction
 │   │── train.py         # Training script for different models
 │   │── predict.py       # Keypress prediction from audio
-│── algorithms/          # Different model architectures
+│── Algorithms/          # Different model architectures
 │   │── cnn.py           # CNN-based model
 │   │── rnn.py           # RNN-based model
 │   │── cnn_bilstm.py    # CNN+BiLSTM hybrid model
 │   │── rnn_lstm.py      # RNN+LSTM hybrid model
 │   │── transformers.py  # Transformer-based model
-│── requirements.txt     # Dependencies
+│── Requirements.txt     # Dependencies
 │── README.md            # Project documentation
 ```
 
